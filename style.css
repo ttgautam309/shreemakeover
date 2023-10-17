@@ -1,0 +1,67 @@
+/* Font styles for the .about section */
+.about {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* Sizing for images in .carousel-item */
+.carousel-item img {
+    height: 60vh;
+    width: 100%; /* Add this to ensure responsiveness */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Sizing for images in .card-body */
+.card-body img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Center the .card horizontally and add margin at the bottom */
+.card {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Increase the font size for .card-body */
+.card-body {
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Apply padding to .card-title1 for better spacing */
+.card-title1 {
+    padding-top: 10px;
+}
+
+/* Add some padding to the .social links */
+.social {
+    padding: 10px; /* Adjust as needed */
+}
+
+/* Apply the 'Crimson Text' font to the entire container */
+.container {
+    font-family: 'Crimson Text', serif;
+}
+
+/* Style the list items in .bottom-link */
+.bottom-link ul li {
+    display: inline-block;
+    margin-right: 10px; /* Change 'padding-right' to 'margin-right' */
+}
+
+/* Style the links within .bottom-link */
+.bottom-link ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Ensure the .work and .container rows are properly styled */
+.work .container,
+.work .row {
+    /* Add your styles here */
+}
+
+/* Float the 'book-appointment' link to the right */
+.book-appointment a {
+    float: right;
+}
