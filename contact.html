@@ -75,23 +75,23 @@
         </h6>
     </section>
     <section>
-    <form action="contact.php" method="post" class="row g-3 pb-5">
+<form action="contact.php" method="post" class="row g-3 pb-5">
    <div class="col-md-6">
-      <label for="fname" class="form-label">First name</label>
-      <input type="text" class="form-control" id="fname" required>
+      <label class="form-label">First name</label>
+      <input type="text" name="fname" class="form-control" id="fname" required>
    </div>
    <div class="col-md-6">
-      <label for="lname" class="form-label">Last name</label>
-      <input type="text" class="form-control" id="lname" required>
+      <label  class="form-label">Last name</label>
+      <input type="text" name="lname" class="form-control" id="lname" required>
    </div>
    <div class="col-md-6">
-      <label for="mobile" class="form-label">Mobile</label>
-      <input type="text" class="form-control" id="mobile" required>
+      <label class="form-label">Mobile</label>
+      <input type="text" name="mobile" class="form-control" id="mobile" required>
    </div>
    <div class="col-md-6">
-      <label for="email" class="form-label">Email</label>
+      <label class="form-label">Email</label>
       <div class="input-group">
-         <input type="text" class="form-control" id="email" required>
+         <input type="text" name="email" class="form-control" id="email" required>
       </div>
    </div>
    <!-- <div class="col-md-12">
@@ -99,13 +99,13 @@
       <input type="text" class="form-control" id="validationDefault04" style="height: 100px"required>
    </div> -->
    <div class="form-floating">
-  <textarea class="form-control" placeholder="Leave a comment here" id="message" style="height: 100px"></textarea>
-  <label for="message">Message</label>
+  <textarea class="form-control" placeholder="Leave a comment here" id="message" name="message" style="height: 100px"></textarea>
+  <label>Message</label>
 </div>
    <div class="col-12">
       <div class="form-check">
          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-         <label class="form-check-label" for="invalidCheck2">
+         <label class="form-check-label">
          Agree to terms and conditions
          </label>
       </div>
